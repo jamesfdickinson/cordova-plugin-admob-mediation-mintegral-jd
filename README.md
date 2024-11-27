@@ -4,6 +4,21 @@ Use with cordova admob plugins such as [cordova-admob-jimmy](https://github.com/
 
 [CHANGELOG](https://github.com/jamesfdickinson/cordova-plugin-admob-mediation-mintegral-jd/blob/master/CHANGELOG.md)
 
+## Setup ##
+
+In your project-level settings.gradle.kts file, add the following repositories:
+
+````
+dependencyResolutionManagement {
+  repositories {
+    google()
+    mavenCentral()
+    maven {
+      url = uri("https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea")
+    }
+  }
+}
+````
 ## Installation ##
 
 In your application project directory:
