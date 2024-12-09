@@ -14,14 +14,13 @@
     </platform>
 
     <platform name="ios">
-        <preference name="GOOGLE_ADS_MEDIATION_MINTEGRAL_VERSION_IOS" default="~> 8.2" />
-
+       
         <podspec>
             <config>
                 <source url="https://cdn.cocoapods.org/"/>
             </config>
             <pods>
-                <pod name="GoogleMobileAdsMediationMintegral" spec="$GOOGLE_ADS_MEDIATION_MINTEGRAL_VERSION_IOS" />
+                <pod name="GoogleMobileAdsMediationMintegral"  />
             </pods>
         </podspec>
          <!-- Add in the swift-support plugin by default -->
